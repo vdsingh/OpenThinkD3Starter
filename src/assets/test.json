@@ -1,0 +1,34 @@
+{
+    "_id": {
+        "$oid": "5f85b65d48bb5c021b8f68d8"
+    },
+    "owner": [{
+        "$oid": "5f8537bb48bb5c021b8f68cd"
+    }],
+    "followers": [],
+    "votes": [],
+    "tags": [],
+    "title": "Hey Nathan",
+    "type": "Topic",
+    "public": true,
+    "anon": false,
+    "body": "<p>Welcome to version 1.2 New Features:</p><ol><li>Added a rich text editor - this numbered list format uses that</li><li class=\"ql-indent-1\">Can mention other users in the project</li><li class=\"ql-indent-1\">Can use emojis</li><li class=\"ql-indent-1\">Can use code blocks with automatic syntax highlighting</li><li class=\"ql-indent-1\">Can embed videos and images</li><li>Add banner and icon images to projects</li><li>Add banner and profile picture to individuals</li><li>Project Info tab for letting project creators and leads dispense info to new members easily</li></ol><p><br></p><p><strong>Embedded Video</strong></p><iframe class=\"ql-video\" allowfullscreen=\"true\" src=\"https://www.youtube.com/embed/64R2MYUt394?showinfo=0\" data-blot-formatter-unclickable-bound=\"true\" frameborder=\"0\"></iframe><p><br></p><p><strong>Embedded Image</strong></p><p><img src=\"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.aj48y9KXH2xOZ46X9NvKJQHaEo%26pid%3DApi&amp;f=1\" width=\"338\" height=\"211.07172995780593\"></p><p><br></p><p><br></p><p><strong>Emojis</strong></p><p><span class=\"ql-emojiblot\" data-name=\"kissing_heart\">﻿<span contenteditable=\"false\"><span class=\"ap ap-kissing_heart\">😘</span></span>﻿</span><span class=\"ql-emojiblot\" data-name=\"joy\">﻿<span contenteditable=\"false\"><span class=\"ap ap-joy\">😂</span></span>﻿</span><span class=\"ql-emojiblot\" data-name=\"grin\">﻿<span contenteditable=\"false\"><span class=\"ap ap-grin\">😁</span></span>﻿</span></p><p><br></p><p><strong>Code</strong></p><pre class=\"ql-syntax\" spellcheck=\"false\"><span class=\"hljs-function\"><span class=\"hljs-keyword\">function</span> <span class=\"hljs-title\">test</span>() </span>{\n   <span class=\"hljs-comment\">// this is a test function</span>\n﻿  <span class=\"hljs-keyword\">let</span> val = <span class=\"hljs-number\">3</span>;\n}  \n</pre>",
+    "poll": [],
+    "qa": [],
+    "tasks": [],
+    "comments": [],
+    "createdAt": {
+        "$date": {
+            "$numberLong": "1602598493431"
+        }
+    },
+    "updatedAt": {
+        "$date": {
+            "$numberLong": "1603216450342"
+        }
+    },
+    "__v": {
+        "$numberInt": "32"
+    },
+    "edited": true
+}
