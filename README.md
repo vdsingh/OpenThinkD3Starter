@@ -5,6 +5,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Getting Started
 Run git clone. Create a new branch with the name of the visualization you've been assigned. Ensure all work you do is within the branch.
 
+There is already a new component entitled new-visualization that you should complete your work within.
+
 
 ## Development server
 
