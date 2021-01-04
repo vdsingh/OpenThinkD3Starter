@@ -1,5 +1,101 @@
 export const dummyPosts = [
     {
+        "_id": "5f85b65d48bb5c021b8f68h8",
+        "owner": [{
+            "$oid": "5f8537bb48bb5c021b8f68cd"
+        }],
+        "followers": [],
+        "votes": [],
+        "tags": [],
+        "title": "Hello World",
+        "type": "Topic",
+        "public": true,
+        "anon": false,
+        "body": "This is sample post 1",
+        "poll": [],
+        "qa": [],
+        "tasks": [],
+        "comments": [],
+        "createdAt": {
+            "$date": {
+                "$numberLong": "1602598493431"
+            }
+        },
+        "updatedAt": {
+            "$date": {
+                "$numberLong": "1603216450342"
+            }
+        },
+        "__v": {
+            "$numberInt": "32"
+        },
+        "edited": true
+    },
+    {
+        "_id": "5f85b65d48bb5c021b8f68a8",
+        "owner": [{
+            "$oid": "5f8537bb48bb5c021b8f68cd"
+        }],
+        "followers": [],
+        "votes": [],
+        "tags": [],
+        "title": "Hello World",
+        "type": "Topic",
+        "public": true,
+        "anon": false,
+        "body": "This is sample post 1",
+        "poll": [],
+        "qa": [],
+        "tasks": [],
+        "comments": [],
+        "createdAt": {
+            "$date": {
+                "$numberLong": "1602598493431"
+            }
+        },
+        "updatedAt": {
+            "$date": {
+                "$numberLong": "1603216450342"
+            }
+        },
+        "__v": {
+            "$numberInt": "32"
+        },
+        "edited": true
+    },
+    {
+        "_id": "5f85b65d48bb5c021b8f68a2",
+        "owner": [{
+            "$oid": "5f8537bb48bb5c021b8f68cd"
+        }],
+        "followers": [],
+        "votes": [],
+        "tags": [],
+        "title": "Hello World",
+        "type": "Topic",
+        "public": true,
+        "anon": false,
+        "body": "This is sample post 1",
+        "poll": [],
+        "qa": [],
+        "tasks": [],
+        "comments": [],
+        "createdAt": {
+            "$date": {
+                "$numberLong": "1602598493431"
+            }
+        },
+        "updatedAt": {
+            "$date": {
+                "$numberLong": "1603216450342"
+            }
+        },
+        "__v": {
+            "$numberInt": "32"
+        },
+        "edited": true
+    },
+    {
     "_id": "5f85b65d48bb5c021b8f68d8",
     "owner": [{
         "$oid": "5f8537bb48bb5c021b8f68cd"
@@ -165,6 +261,21 @@ export const dummyPosts = [
 ]
 
 export const dummyRelations = [
+    {
+        "_id": {
+            "$oid": "5f85c73748bb5c021b8f68e7"
+        },
+        "post2": "5f85b65d48bb5c021b8f68a8",
+        "type": "parent-child",
+        "post1": "5f85b65d48bb5c021b8f68a2",
+        "owner": {
+            "$oid": "5f85bde948bb5c021b8f68e0"
+        },
+        "__v": {
+            "$numberInt": "0"
+        }
+    },
+
     {
         "_id": {
             "$oid": "5f85c73748bb5c021b8f68e7"
